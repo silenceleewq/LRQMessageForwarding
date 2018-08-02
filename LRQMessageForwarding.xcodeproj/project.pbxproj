@@ -13,6 +13,8 @@
 		1FC401C021130A100018B222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC401BF21130A100018B222 /* Assets.xcassets */; };
 		1FC401C321130A100018B222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC401C121130A100018B222 /* LaunchScreen.storyboard */; };
 		1FC401C621130A100018B222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC401C521130A100018B222 /* main.m */; };
+		1FC401CF21130D770018B222 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC401CE21130D770018B222 /* Person.m */; };
+		1FC401D221130D800018B222 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC401D121130D800018B222 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1FC401C221130A100018B222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FC401C421130A100018B222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC401C521130A100018B222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FC401CD21130D770018B222 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1FC401CE21130D770018B222 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1FC401D021130D800018B222 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1FC401D121130D800018B222 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		1FC401B521130A0F0018B222 /* LRQMessageForwarding */ = {
 			isa = PBXGroup;
 			children = (
+				1FC401CC21130D6C0018B222 /* Class */,
 				1FC401B621130A0F0018B222 /* AppDelegate.h */,
 				1FC401B721130A0F0018B222 /* AppDelegate.m */,
 				1FC401B921130A0F0018B222 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				1FC401C521130A100018B222 /* main.m */,
 			);
 			path = LRQMessageForwarding;
+			sourceTree = "<group>";
+		};
+		1FC401CC21130D6C0018B222 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1FC401CD21130D770018B222 /* Person.h */,
+				1FC401CE21130D770018B222 /* Person.m */,
+				1FC401D021130D800018B222 /* Student.h */,
+				1FC401D121130D800018B222 /* Student.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +161,8 @@
 			files = (
 				1FC401BB21130A0F0018B222 /* ViewController.m in Sources */,
 				1FC401C621130A100018B222 /* main.m in Sources */,
+				1FC401D221130D800018B222 /* Student.m in Sources */,
+				1FC401CF21130D770018B222 /* Person.m in Sources */,
 				1FC401B821130A0F0018B222 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
